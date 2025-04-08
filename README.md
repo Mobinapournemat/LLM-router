@@ -23,6 +23,6 @@ This is a smart AI agent that takes a user prompt, classifies it into a predefin
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/ai-task-routing-agent.git
-cd ai-task-routing-agent
+git clone https://github.com/Mobinapournemat/LLM-router.git
+cd LLM-router
 pip install -r requirements.txt
