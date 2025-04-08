@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ### 1. **Run the Agent**
 
-To run the agent, use the following command:
+To run the agent, use the following command. You'll need access to Groq's API to pass it as an argument.
 
 ```bash
 python3 llm_router.py --api-key YOUR_API_KEY_HERE
@@ -90,7 +90,4 @@ You can run this function, and it will print out 10 random samples from the spec
 ```
 
 
-## 📌 Notes
-- You'll need access to Groq's API and pass your API key in the command line.
 
-- This project is modular and can be extended to include more categories or tools (e.g., web search, calculators, etc.)
