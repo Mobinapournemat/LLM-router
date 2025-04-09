@@ -1,4 +1,4 @@
-# 🧠 LLM-router
+# 📡 LLM-router
 
 This is a smart AI agent that takes a user prompt, classifies it into a predefined category (e.g., math, coding, long-context reasoning, etc.), and routes it to a specialized large language model (LLM) hosted on Groq's API for a high-quality response.
 
@@ -38,7 +38,7 @@ To run the agent, use the following command. You'll need access to Groq's API to
 python3 llm_router.py --api-key YOUR_API_KEY_HERE
 ```
 
-After running the agent, you will be prompted to enter your task. The agent will classify the task and route it to the appropriate model and return the results to you.
+After running the agent, you will be prompted to enter your task. The agent will classify the prompt and route it to the appropriate model and return the results to you.
 
 ## 🧑‍💻 Example Demos
 ### Example 1: **Farsi Input**
