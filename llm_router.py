@@ -6,13 +6,6 @@ import argparse
 
 DetectorFactory.seed = 0
 
-def detect_language(text: str) -> str:
-    try:
-        return detect(text)
-    except LangDetectException:
-        return 'unknown'
-
-
 
 
 CATEGORY_MODEL_MAP = {
